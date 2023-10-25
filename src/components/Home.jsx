@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import logo from"../assets/SUC logo_1.png"
 
 const Home = () => (
   <div>
@@ -19,6 +20,12 @@ const Home = () => (
         </ul>
       </nav>
     </header>
+  <div id='suc_logo'>
+    <div>
+      <img src={logo}  />
+    </div>
+  </div>
+    
   </div>
 );
 

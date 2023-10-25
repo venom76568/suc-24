@@ -2,10 +2,20 @@
 html {
     height: 100%;
     background: radial-gradient(ellipse at bottom, #4D4D4D 5% ,#363636 15%, #212121 35%,#0A0A0A 60%, #000000 100%);
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     padding: 0.5rem;
   }
   
+  #suc_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img
+  {
+    width: 546px;
+  }
   #stars {
       content:"e";
     background: transparent;
