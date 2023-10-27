@@ -1,6 +1,6 @@
 import React from 'react';
 import './home.css';
-import logo from"../assets/SUC logo_1.png"
+import logo from"../assets/SUC logo_1_copy.png"
 
 const Home = () => (
   <div>
@@ -14,17 +14,25 @@ const Home = () => (
           <li id="button"><button><a href="register.html">Register</a></button></li>
           <li><a href="">Contact</a></li>
           <li><a href="">Glimpses</a></li>
-          <li><a href="">Why SUC</a></li>
+          <li><a href="">Speakers</a></li>
           <li><a href="">About us</a></li>
           <li><a href="">Home</a></li>
         </ul>
       </nav>
     </header>
+    <div id="intro">
+      <span>Central India's Largest B-Plan Competition<br />
+      Registrations for SUC 2023 Starting soon !!!</span>
+    </div>
   <div id='suc_logo'>
     <div>
       <img src={logo}  />
     </div>
   </div>
+    <div id='buttons'>
+      <span><button id='button1'><a href="">Register</a></button></span>
+      <button id='button2'><a href="">Login</a></button>
+    </div>
     
   </div>
 );
