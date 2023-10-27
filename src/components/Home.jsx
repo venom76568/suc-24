@@ -8,25 +8,13 @@ const Home = () => (
     <div id='stars2'></div>
     <div id='stars3'></div>
     <div id='title'></div>
-    <header>
-      <nav id="navbar">
-        <ul>
-          <li id="button"><button><a href="register.html">Register</a></button></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Glimpses</a></li>
-          <li><a href="">Speakers</a></li>
-          <li><a href="">About us</a></li>
-          <li><a href="">Home</a></li>
-        </ul>
-      </nav>
-    </header>
     <div id="intro">
       <span>Central India's Largest B-Plan Competition<br />
       Registrations for SUC 2023 Starting soon !!!</span>
     </div>
   <div id='suc_logo'>
     <div>
-      <img src={logo}  />
+      <img id='image_logo' src={logo}  />
     </div>
   </div>
     <div id='buttons'>

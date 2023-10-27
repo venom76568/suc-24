@@ -20,7 +20,7 @@ html{
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
+    height: 0.15rem;
     bottom: 0;
     left: 0;
     background-color: red;
@@ -51,20 +51,22 @@ html{
 #text1{
     display: flex;
     /* margin: 2rem 10rem 2rem 2rem; */
-    word-spacing: 0.25rem;
-    font-size: large;
+    word-spacing: 0.2rem;
+    font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 25rem;
     margin-right: 2rem;
+    font-weight: 500;
 }
 #text2{
     display: flex;
     /* margin: 2rem 1.5rem 2rem 6rem; */
-    word-spacing: 0.3rem;
-    font-size: large;
+    word-spacing: 0.2rem;
+    font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     width: 25rem;
     margin-left: 2rem;
+    font-weight: 500;
 }
 #vl{
     display: flex;
