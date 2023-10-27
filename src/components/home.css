@@ -1,4 +1,6 @@
-
+*{
+  scroll-behavior: smooth ;
+}
 html {
     height: 200%;
     background: radial-gradient(ellipse, #4D4D4D 5% ,#363636 15%, #212121 35%,#0A0A0A 60%, #000000 100%);
@@ -13,6 +15,8 @@ html {
     align-items: center;
     justify-content: center;
     margin-top: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
   }
   #image_logo{
     width: 38rem;

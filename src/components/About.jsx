@@ -7,7 +7,7 @@ const About = () => (
   <div>
         <div id="about">
         <p class="hover-underline-animation">About us</p>
-    </div>
+        </div>
     <div id="Dot"><span id="dot"></span></div>
     <div id="part1">
         <div><img id="img1" src={logo} alt="startup conclave logo"/></div>

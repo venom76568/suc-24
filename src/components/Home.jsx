@@ -9,8 +9,8 @@ const Home = () => (
     <div id='stars3'></div>
     <div id='title'></div>
     <div id="intro">
-      <span>Central India's Largest B-Plan Competition<br />
-      Registrations for SUC 2023 Starting soon !!!</span>
+      <p class="hover-underline-animation">Central India's Largest B-Plan Competition<br />
+      Registrations for SUC 2023 Starting soon !!!</p>
     </div>
   <div id='suc_logo'>
     <div>

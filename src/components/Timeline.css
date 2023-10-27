@@ -1,0 +1,45 @@
+
+.style1{
+    right: 50%; border: 2px solid #7d5e02; border-radius: 1%;
+}
+
+.style2{
+    left: 50%; border: 2px solid #FFC100; border-radius: 1%;
+}
+#same {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #same:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 0.15rem;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(238, 255, 0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  #same:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  #dot1 {
+    height: 1rem;
+    width: 1rem;
+    background-color: rgb(250, 204, 21);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+}
+#Dot1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

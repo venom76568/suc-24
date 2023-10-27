@@ -7,7 +7,7 @@ const Navbar = () => (
         <header>
             <div id="header">
             <div id="logo">
-              <img id="black_logo" src={black_logo} alt="logo" />
+              <a href="https://www.ecellvnit.org/" target="_blank"><img id="black_logo" src={black_logo} alt="logo" /></a>
             </div>
             <div>
       <nav id="navbar">
@@ -17,7 +17,7 @@ const Navbar = () => (
           <li><a href="">Glimpses</a></li>
           <li><a href="">Speakers</a></li>
           <li><a href="">About us</a></li>
-          <li><a href="">Home</a></li>
+          <li><a href="#stars">Home</a></li>
         </ul>
       </nav>
       </div>
