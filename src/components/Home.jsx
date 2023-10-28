@@ -1,6 +1,9 @@
 import React from 'react';
 import './home.css';
 import logo from"../assets/SUC logo_1_copy.png"
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@500&family=Ubuntu:wght@700&display=swap');
+</style>
 
 const Home = () => (
   <div>
@@ -9,7 +12,7 @@ const Home = () => (
     <div id='stars3'></div>
     <div id='title'></div>
     <div id="intro">
-      <p class="hover-underline-animation">Central India's Largest B-Plan Competition<br />
+      <p class="hover-underline-animation">Central India's Largest B-Plan Competition.<br />
       Registrations for SUC 2023 Starting soon !!!</p>
     </div>
   <div id='suc_logo'>

@@ -42,12 +42,12 @@ html{
     color: white;
 }
 #img1{
-    width: 25rem;
+    width: 22rem;
     /* margin: 2rem 2rem 2rem 10rem; */
     margin-left: 2rem;
 }
 #img2{
-    width: 25rem;
+    width: 22rem;
     /* margin: 2rem 10rem 2rem 2rem; */
     margin-right: 2rem;
 }
@@ -57,7 +57,7 @@ html{
     word-spacing: 0.2rem;
     font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 25rem;
+    width: 22rem;
     margin-right: 2rem;
     font-weight: 500;
 }
@@ -67,7 +67,7 @@ html{
     word-spacing: 0.2rem;
     font-size: 1.15rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 25rem;
+    width: 22rem;
     margin-left: 2rem;
     font-weight: 500;
 }
@@ -91,3 +91,40 @@ html{
     align-items: center;
     justify-content: center;
 }
+@media (max-width: 768px) {
+    #about {
+      font-size: 2rem;
+      margin-top: 3rem;
+    }
+  
+    #part1,
+    #part2 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    #text1,
+    #text2 {
+      width: auto;
+      margin: 1rem;
+    }
+  
+    #img1,
+    #img2 {
+      width: 16rem;
+      margin: 1rem 0;
+    }
+  
+    #vl {
+      border-left: none;
+      border-top: 0.3rem solid red;
+      width: 15rem;
+      height: auto;
+      margin: 1rem 0;
+    }
+  
+    #dot {
+      margin: 0.5rem 0;
+    }
+  }
