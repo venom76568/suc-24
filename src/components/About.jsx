@@ -6,7 +6,7 @@ import logo1 from "../assets/ecell logo.png";
 const About = () => (
   <div>
         <div id="about">
-        <p class="hover-underline-animation">About us</p>
+        <p class="hover-underline-animation" id='aboutus'>About us</p>
         </div>
     <div id="Dot"><span id="dot"></span></div>
     <div id="part1">

@@ -7,7 +7,7 @@
     left: 50%; border: 2px solid #FFC100; border-radius: 1%;
 }
 #same {
-    display: inline-block;
+    display: flex;
     position: relative;
   }
   
