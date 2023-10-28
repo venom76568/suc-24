@@ -28,11 +28,11 @@ const Navbar = () => (
       </div>
             </div>
     </header>
-    { <script>
+    {/* { <script>
     document.querySelector('.menu-toggle').addEventListener('click', function() {
     document.querySelector('ul').classList.toggle('show')
     });
-    </script> }
+    </script> } */}
     </div>
 );
 export default Navbar;

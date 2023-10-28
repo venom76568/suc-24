@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Navbar from "./components/Navbar";
 import TimeLine from "./components/TimeLine";
+import Footer from "./components/Footer";
 // import Register from "./components/Register";
 
 function App()
@@ -15,6 +16,7 @@ function App()
         <About/>
         <TimeLine/>
         {/* <Register/> */}
+        <Footer/>
         </BrowserRouter>
     );
 }
