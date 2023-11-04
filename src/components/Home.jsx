@@ -1,9 +1,6 @@
 import React from 'react';
 import './home.css';
-import logo from"../assets/SUC logo_1_copy.png"
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@500&family=Ubuntu:wght@700&display=swap');
-</style>
+import logo from"../assets/SUC logo_1_copy.png";
 
 const Home = () => (
   <div>

@@ -37,7 +37,7 @@
     float: right;
   }
   
-  li a {
+  .navbar li a {
     display: flex;
     color: white;
     padding: 14px 16px;

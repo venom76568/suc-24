@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './about.css';
 import logo from "../assets/SUC logo_1_copy.png";
 import logo1 from "../assets/ecell logo.png";
+// import jQuery from 'jquery';
 
 const About = () => (
   <div>
@@ -21,6 +22,7 @@ const About = () => (
         <div><img id="img2" src={logo1} alt="E-Cell logo"/></div>
     </div>
     <div id="Dot"><span id="dot"></span></div>
+    
   </div>
 );
 

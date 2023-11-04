@@ -7,7 +7,7 @@ const Footer = () => (
     <footer class="footer">
         <div class="container">
          <div class="row">
-           <div class="footer-col">
+           <div class="footer-col" id='footer-col1'>
              <a href="https://www.ecellvnit.org/" target="_blank"><img id='logo3' src={logo3} /></a>
            </div>
            <div class="footer-col">
@@ -19,13 +19,15 @@ const Footer = () => (
            <div class="footer-col">
             <h4>Contact Us</h4>
             <ul>
-              <li><a href="mailto:startupconclave@ecellvnit.co.in">&#128231; startupconclave@ecellvnit.co.in</a></li>
-              <li><a href="mailto:corporateaffairs@ecellvnit.co.in">&#128231; corporateaffairs@ecellvnit.co.in</a></li>
+              <li>For Public Affairs and Communication:
+                <a href="mailto:startupconclave@ecellvnit.co.in">&#128231; startupconclave@ecellvnit.co.in</a></li>
+              <li>For Association and Sponsorship:
+                <a href="mailto:corporateaffairs@ecellvnit.co.in">&#128231; corporateaffairs@ecellvnit.co.in</a></li>
             </ul>
           </div>
-           <div class="footer-col">
+           <div class="footer-col" id='footer-col1'>
              <h4>Quick Links</h4>
-             <ul>
+             <ul className='footer'>
                <li><a href="https://flagship.ecellvnit.org/">Flagship</a></li>
                <li><a href="https://neo.ecellvnit.org/">NEO</a></li>
                <li><a href="https://jugaad.ecellvnit.org/">Jugaad</a></li>
@@ -46,10 +48,10 @@ const Footer = () => (
         </div>
         <div class="row">
             E-Cell VNIT Copyright © 2023 || E-Cell VNIT - All rights reserved !!
+            </div>
             <div class="go_top">
                 <a href="#navbar"><i class="fas fa-arrow-up"></i></a>
               </div>
-            </div>
      </footer>
   </div>
 );

@@ -9,9 +9,10 @@ html{
     align-items: center;
     justify-content: center;
     color: whitesmoke;
-    font-size: 3rem;
+    font-size: 4rem;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 5rem;
+    margin: 5rem 0 2rem 0;
+    font-weight: 600;
 }
 .hover-underline-animation {
     display: inline-block;
@@ -50,6 +51,9 @@ html{
     width: 22rem;
     /* margin: 2rem 10rem 2rem 2rem; */
     margin-right: 2rem;
+}
+#img1:hover, #img2:hover{
+  transform: scale(1.2);
 }
 #text1{
     display: flex;
@@ -93,8 +97,8 @@ html{
 }
 @media (max-width: 768px) {
     #about {
-      font-size: 2rem;
-      margin-top: 3rem;
+      font-size: 3rem;
+      margin-top: 5rem;
     }
   
     #part1,
@@ -113,9 +117,9 @@ html{
     #img1,
     #img2 {
       width: 16rem;
-      margin: 1rem 0;
+      margin: 1.5rem 0;
     }
-  
+    
     #vl {
       border-left: none;
       border-top: 0.3rem solid red;
@@ -125,6 +129,6 @@ html{
     }
   
     #dot {
-      margin: 0.5rem 0;
+      margin: 0.75rem 0;
     }
   }

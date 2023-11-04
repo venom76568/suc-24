@@ -16,7 +16,7 @@ const Navbar = () => (
       <div class="bar"></div>
       <div class="bar"></div>
     </div>
-        <ul>
+        <ul className="navbar">
           <li id="button"><button><a href="register.html">Register</a></button></li>
           <li><a href="">Contact</a></li>
           <li><a href="">Glimpses</a></li>
