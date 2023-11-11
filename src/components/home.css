@@ -9,6 +9,7 @@ html {
     overflow-y: auto;
     padding: 0.5rem;
     position: relative;
+    animation: infinite;
   }
   #intro{
     display: flex;

@@ -1,4 +1,4 @@
-*{
+/* *{
     scroll-behavior: smooth;
 }
 html{
@@ -13,7 +13,7 @@ html{
     font-family: 'Courier New', Courier, monospace;
     margin: 5rem 0 2rem 0;
     font-weight: 600;
-}
+} */
 .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -36,7 +36,7 @@ html{
     transform: scaleX(1);
     transform-origin: bottom left;
   }
-#part1, #part2{
+/* #part1, #part2{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -44,12 +44,12 @@ html{
 }
 #img1{
     width: 22rem;
-    /* margin: 2rem 2rem 2rem 10rem; */
+    /* margin: 2rem 2rem 2rem 10rem; 
     margin-left: 2rem;
 }
 #img2{
     width: 22rem;
-    /* margin: 2rem 10rem 2rem 2rem; */
+    /* margin: 2rem 10rem 2rem 2rem; 
     margin-right: 2rem;
 }
 #img1:hover, #img2:hover{
@@ -57,7 +57,7 @@ html{
 }
 #text1{
     display: flex;
-    /* margin: 2rem 10rem 2rem 2rem; */
+    /* margin: 2rem 10rem 2rem 2rem; 
     word-spacing: 0.2rem;
     font-size: 1.2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -67,7 +67,7 @@ html{
 }
 #text2{
     display: flex;
-    /* margin: 2rem 1.5rem 2rem 6rem; */
+    /* margin: 2rem 1.5rem 2rem 6rem; 
     word-spacing: 0.2rem;
     font-size: 1.15rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -131,4 +131,4 @@ html{
     #dot {
       margin: 0.75rem 0;
     }
-  }
+  } */
