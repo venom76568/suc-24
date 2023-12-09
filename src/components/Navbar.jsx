@@ -19,8 +19,8 @@ const Navbar = () => (
         <ul className="navbar">
           <li id="button"><button><a href="register.html">Register</a></button></li>
           <li><a href="">Contact</a></li>
-          <li><a href="">Glimpses</a></li>
-          <li><a href="">Speakers</a></li>
+          {/* <li><a href="">Glimpses</a></li> */}
+          <li><a href="">Speakers N Sponsors</a></li>
           <li><a href="#aboutus">About us</a></li>
           <li><a href="#stars" class="active">Home</a></li>
         </ul>

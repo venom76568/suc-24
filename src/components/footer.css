@@ -91,7 +91,7 @@ ul{
     width:2.5rem;
     background:#d31616;
     color:#fff;
-    /* position:fixed; */
+
     -webkit-box-shadow:0 4px 4px rgba(0,0,0,.1);
     box-shadow:0 4px 4px rgba(0,0,0,.1);
     -webkit-border-radius:50%;

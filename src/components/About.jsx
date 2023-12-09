@@ -1,5 +1,5 @@
 import React from 'react';
-import './about.css';
+import './home.css';
 import logo from "../assets/SUC logo_1_copy.png";
 import logo1 from "../assets/ecell logo.png";
 
