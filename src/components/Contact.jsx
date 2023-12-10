@@ -7,7 +7,7 @@ export default class NewCard extends Component {
             <div>
             <p className="text-2xl ml-2 text-red-600 uppercase tracking-loose"><u>For more details contact us at:</u></p>
             </div>
-      <div class="flex justify-between">
+      <div class="flex justify-between ">
         <div className="bg-gray-1000 w-full min-h-max gap-4 flex-wrap flex justify-center items-center">
         <div className="w-60 p-3 bg-white rounded-xl transform transition-all hover:-translate-y-2 duration-300 shadow-lg hover:shadow-2xl">
             {/* <!-- Image --> */}

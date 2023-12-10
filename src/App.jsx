@@ -6,8 +6,6 @@ import Navbar from "./components/Navbar";
 import TimeLine from "./components/TimeLine";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
-// import Memories from "./components/Memories";
-// import Register from "./components/Register";
 
 function App()
 {
@@ -17,8 +15,6 @@ function App()
         <Home/>
         <About/>
         <TimeLine/>
-        {/* <Register/> */}
-        {/* <Memories/> */}
         <Contact/>
         <Footer/>
         </BrowserRouter>
