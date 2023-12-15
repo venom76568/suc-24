@@ -1,87 +1,91 @@
-#header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between ;
-    /* width: 100%; */
-  }
-  #black_logo{
-    width: 8rem;
-    /* margin-bottom: 1.5rem; */
-  }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:wght@400;500;600;700&display=swap");
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+#black_logo {
+  width: 8rem;
+  /* margin-bottom: 1.5rem; */
+}
+.menu-toggle {
+  display: none; /* Hide by default on larger screens */
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #fff;
+  transition: background-color 0.3s;
+}
+#navbar {
+  text-decoration: none;
+  list-style-type: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+li {
+  float: right;
+}
+
+.navbar li a {
+  display: flex;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Montserrat, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+li a:hover {
+  font-size: 105%;
+}
+
+@media (max-width: 768px) {
   .menu-toggle {
-    display: none; /* Hide by default on larger screens */
-    cursor: pointer;
+    display: block; /* Show on smaller screens */
   }
-  
-  .bar {
-    display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    background-color: #fff;
-    transition: background-color 0.3s;
-  }
-  #navbar{
-    text-decoration: none;
-    list-style-type: none;
-  }
+
   ul {
+    display: none; /* Hide the menu by default on small screens */
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: black;
   }
-  
+
   li {
-    float: right;
+    float: none;
+    display: block;
+    text-align: center;
   }
-  
-  .navbar li a {
-    display: flex;
+
+  li a {
+    display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
-   li a:hover {
+  li a:hover {
     font-size: 105%;
-  } 
-  
-  @media (max-width: 768px) {
-    .menu-toggle {
-      display: block; /* Show on smaller screens */
-    }
-  
-    ul {
-      display: none; /* Hide the menu by default on small screens */
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: black;
-    }
-  
-    li {
-      float: none;
-      display: block;
-      text-align: center;
-    }
-  
-    li a {
-      display: block;
-      color: white;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-  
-    li a:hover {
-      font-size: 105%;
-    }
-  
-    .show {
-      display: block; /* Show the menu when toggled */
-    }
   }
+
+  .show {
+    display: block; /* Show the menu when toggled */
+  }
+}
