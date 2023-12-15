@@ -1,38 +1,52 @@
-import React from "react";
-import './navbar.css';
-import black_logo from "../assets/ecell logo.png";
+import React, { useState } from "react";
 
-const Navbar = () => (
-    <div>
-        <header>
-            <div id="header">
-            <div id="logo">
-              <a href="https://www.ecellvnit.org/" target="_blank"><img id="black_logo" src={black_logo} alt="logo" /></a>
-            </div>
-            <div>
-      <nav id="navbar">
-      <div class="menu-toggle">
-      <div class="bar"></div>
-      <div class="bar"></div>
-      <div class="bar"></div>
-    </div>
-        <ul className="navbar">
-          <li id="button"><button><a href="https://forms.gle/tkcbw4ozCT4P1cMc6" target="_blank">Register</a></button></li>
-          <li><a href="">Contact</a></li>
-          {/* <li><a href="">Glimpses</a></li> */}
-          <li><a href="">Speakers N Sponsors</a></li>
-          <li><a href="#aboutus">About us</a></li>
-          <li><a href="#stars" class="active">Home</a></li>
-        </ul>
-      </nav>
+const Navbar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="flex items-center justify-between bg-black py-4 px-6">
+      <div className="flex items-center">
+        <img src="/path/to/logo.png" alt="Logo" className="h-8 w-8" />
+        <h1 className="text-white text-lg ml-2">My Website</h1>
       </div>
-            </div>
-    </header>
-    {/* { <script>
-    document.querySelector('.menu-toggle').addEventListener('click', function() {
-    document.querySelector('ul').classList.toggle('show')
-    });
-    </script> } */}
-    </div>
-);
+      <div className="md:hidden">
+        <button
+          type="button"
+          className="text-white hover:text-gray-300"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          <svg viewBox="0 0 20 20" fill="#ffffff">
+            {isOpen ? (
+              <path
+                fillRule="evenodd"
+                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                clipRule="evenodd"
+              />
+            ) : (
+              <path
+                fillRule="evenodd"
+                d="M4 5a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zm0 6a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zm1 5a1 1 0 100 2h10a1 1 0 100-2H5z"
+                clipRule="evenodd"
+              />
+            )}
+          </svg>
+        </button>
+      </div>
+      <div
+        className={`${isOpen ? "" : "hidden"} md:flex items-center space-x-4`}
+      >
+        <a href="#" className="text-white hover:text-gray-300">
+          Home
+        </a>
+        <a href="#" className="text-white hover:text-gray-300">
+          About
+        </a>
+        <a href="#" className="text-white hover:text-gray-300">
+          Services
+        </a>
+      </div>
+    </nav>
+  );
+};
+
 export default Navbar;
