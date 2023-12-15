@@ -1,6 +1,5 @@
 import React from "react";
 import "./about1.css";
-import aboutcopy from "../assets/about-image.jpg";
 import logo from "../assets/SUC logo_1_copy.png";
 import logo1 from "../assets/ecell logo.png";
 
@@ -33,7 +32,7 @@ const AboutSection = () => {
         </div> */}
 
         {/* Content Column */}
-        <div className="content-column col-lg-6 col-md-12 col-sm-12">
+        <div className="content-column scale-110 col-lg-6 col-md-12 col-sm-12">
           <div
             id="part1"
             className="flex items-center justify-evenly text-white "
