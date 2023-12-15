@@ -1,51 +1,104 @@
-import React, { useState } from "react";
+import { Fragment } from "react";
+import { Popover, Transition } from "@headlessui/react";
+import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
+
+import React from "react";
+
+import ecell from "../assets/ecell logo.png";
+
+const navigation = [
+  { name: "Home", href: "/#" },
+  { name: "About", href: "/#about" },
+  { name: "Process", href: "/#timeline" },
+  { name: "Contact", href: "/#contact" },
+];
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
   return (
-    <nav className="flex items-center justify-between bg-black py-4 px-6">
-      <div className="flex items-center">
-        <img src="/path/to/logo.png" alt="Logo" className="h-8 w-8" />
-        <h1 className="text-white text-lg ml-2">My Website</h1>
-      </div>
-      <div className="md:hidden">
-        <button
-          type="button"
-          className="text-white hover:text-gray-300"
-          onClick={() => setIsOpen(!isOpen)}
+    <Popover className="relative w-full bg-black z-50">
+      <div className="pl-10 pr-5 flex items-center justify-between py-2 md:justify-start md:space-x-10">
+        <div className="flex gap-4 justify-start">
+          <a href="https://www.ecellvnit.org/">
+            <span className="sr-only">E-Cell VNIT</span>
+            <img
+              height={150}
+              width={100}
+              priority
+              src={ecell}
+              alt="E-Cell VNIT"
+            />
+          </a>
+        </div>
+        <div className="-my-2 mr-2 md:hidden">
+          <Popover.Button className="inline-flex items-center justify-center bg-[#181818] p-2 text-gray-400 hover:bg-gray-100 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-900">
+            <span className="sr-only">Open menu</span>
+            <Bars3Icon className="h-6 w-6" aria-hidden="true" />
+          </Popover.Button>
+        </div>
+        <Popover.Group
+          as="nav"
+          className="w-full hidden space-x-10 md:flex md:justify-end pr-10"
         >
-          <svg viewBox="0 0 20 20" fill="#ffffff">
-            {isOpen ? (
-              <path
-                fillRule="evenodd"
-                d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              />
-            ) : (
-              <path
-                fillRule="evenodd"
-                d="M4 5a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zm0 6a1 1 0 011-1h10a1 1 0 110 2H5a1 1 0 01-1-1zm1 5a1 1 0 100 2h10a1 1 0 100-2H5z"
-                clipRule="evenodd"
-              />
-            )}
-          </svg>
-        </button>
+          {navigation.map((item, idx) => (
+            <a
+              key={idx}
+              className="text-xs lg:text-lg uppercase text-white hover:text-gray-300"
+              href={item.href}
+            >
+              {item.name}
+            </a>
+          ))}
+        </Popover.Group>
       </div>
-      <div
-        className={`${isOpen ? "" : "hidden"} md:flex items-center space-x-4`}
+
+      <Transition
+        as={Fragment}
+        enter="duration-800 ease-out"
+        enterFrom="opacity-0 scale-95"
+        enterTo="opacity-100 scale-100"
+        leave="duration-100 ease-in"
+        leaveFrom="opacity-100 scale-100"
+        leaveTo="opacity-0 scale-95"
       >
-        <a href="#" className="text-white hover:text-gray-300">
-          Home
-        </a>
-        <a href="#" className="text-white hover:text-gray-300">
-          About
-        </a>
-        <a href="#" className="text-white hover:text-gray-300">
-          Services
-        </a>
-      </div>
-    </nav>
+        <Popover.Panel className="absolute inset-x-0 top-0 origin-top-right transform transition md:hidden">
+          <div className="divide-y-2 divide-gray-50 bg-[#000000] shadow-lg ring-1 ring-black ring-opacity-5">
+            <div className="px-5 pt-5 pb-6">
+              <div className="flex items-center justify-between">
+                <div>
+                  <img
+                    height={100}
+                    width={100}
+                    priority
+                    src={ecell}
+                    alt="E-Cell VNIT"
+                  />
+                </div>
+                <div className="-mr-2">
+                  <Popover.Button className="inline-flex items-center justify-center rounded-md bg-[#181818] p-2 text-white hover:bg-gray-900 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-900">
+                    <span className="sr-only">Close menu</span>
+                    <XMarkIcon className="h-6 w-6" aria-hidden="true" />
+                  </Popover.Button>
+                </div>
+              </div>
+              <div className="mt-6">
+                <nav className="grid gap-y-6 justify-center">
+                  {navigation.map((item, idx) => (
+                    <Popover.Button
+                      as="a"
+                      key={idx}
+                      className="text-md uppercase text-white hover:text-gray-700"
+                      href={item.href}
+                    >
+                      {item.name}
+                    </Popover.Button>
+                  ))}
+                </nav>
+              </div>
+            </div>
+          </div>
+        </Popover.Panel>
+      </Transition>
+    </Popover>
   );
 };
 

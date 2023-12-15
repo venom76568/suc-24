@@ -4,7 +4,7 @@ export default class NewCard extends Component {
   render() {
     return (
       <div>
-        <div>
+        <div id="contact">
           <p className="text-2xl ml-2 items-center justify-center text-center text-red-600 uppercase tracking-loose">
             <u>For more details contact us at:</u>
           </p>

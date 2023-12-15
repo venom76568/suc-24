@@ -6,11 +6,12 @@ import Navbar from "./components/Navbar";
 import TimeLine from "./components/TimeLine";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import "./App.css";
 
 function App() {
   return (
     <BrowserRouter>
-      <div className="bg-black">
+      <div className="page-top">
         <Navbar />
         <Home />
         <About />
