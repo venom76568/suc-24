@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import TimeLine from "./components/TimeLine";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import About1 from "./components/About1";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <div className="bg-black">
         <Navbar />
         <Home />
-        <About />
+        <About1/>
+        {/* <About /> */}
         <TimeLine />
         <Contact />
         <Footer />
