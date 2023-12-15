@@ -7,6 +7,7 @@ import TimeLine from "./components/TimeLine";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
+import About1 from "./components/About1";
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <div className="page-top">
         <Navbar />
         <Home />
-        <About />
+        <About1 />
+        {/* <About /> */}
         <TimeLine />
         <Contact />
         <Footer />
