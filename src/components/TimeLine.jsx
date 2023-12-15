@@ -37,7 +37,7 @@ const TimeLine = () => (
                 <div className="bg-opacity-0 mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
-                    <p className="text-xl mb-3 text-yellow-400">7 Nov, 2023</p>
+                    <p className="text-xl mb-3 text-yellow-400">15 Dec, 2023</p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl"
                       id="same"
@@ -54,7 +54,7 @@ const TimeLine = () => (
                 <div className="mb-8 flex justify-between items-center w-full right-timeline">
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1  w-5/12 px-1 py-4 text-left">
-                    <p className="text-xl mb-3 text-yellow-400">30 Nov, 2023</p>
+                    <p className="text-xl mb-3 text-yellow-400">10 Jan, 2024</p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl"
                       id="same"
@@ -73,7 +73,7 @@ const TimeLine = () => (
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
                     <p className="text-xl mb-3 text-yellow-400">
                       {" "}
-                      15 Dec, 2023
+                      11 Jan to 25 Jan, 2024
                     </p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl"
@@ -93,12 +93,12 @@ const TimeLine = () => (
                   <div className="order-1 w-5/12"></div>
 
                   <div className="order-1  w-5/12 px-1 py-4">
-                    <p className="text-xl mb-3 text-yellow-400">2 Feb,2023</p>
+                    <p className="text-xl mb-3 text-yellow-400">10 Feb,2024</p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl text-left"
                       id="same"
                     >
-                      The Consortium Battle
+                      Shark Tank Conso
                     </h4>
                     <p className="text-lg md:text-lg leading-snug text-gray-50 text-opacity-100">
                       Top 15 Start-Ups which will qualify for the above rounds
