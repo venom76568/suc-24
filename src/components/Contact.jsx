@@ -11,7 +11,7 @@ export default class NewCard extends Component {
         </div>
         <div className="my-10  flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center flex-wrap gap-10">
           <div className="p-5 text-center w-[250px] rounded-2xl  bg-gradient-to-b from-[#f600005d] to-[#ff0000]">
-            <a href="https://www.linkedin.com/in/aryan-jaiswal">
+            <a href="https://www.linkedin.com/in/aryan-jaiswal-/">
               <div className="">
                 <h3 className="text-white font-bold text-[24px]">
                   Aryan Jaiswal
