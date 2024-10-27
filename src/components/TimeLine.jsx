@@ -1,6 +1,7 @@
 import React from "react";
 import "./Timeline.css";
 import image1 from "../assets/image1.png";
+import pdf from "../assets/tnc.pdf"; // Corrected line
 
 const TimeLine = () => (
   <div>
@@ -99,6 +100,15 @@ const TimeLine = () => (
                       id="same"
                     >
                       Shark Tank Conso
+                      <a
+                        href={pdf}
+                        target="_blank"
+                        rel=""
+                        className="pdf"
+                        style={{ color: "black" }}
+                      >
+                        tnc
+                      </a>
                     </h4>
                     <p className="text-lg md:text-lg leading-snug text-gray-50 text-opacity-100">
                       Top 15 Start-Ups which will qualify for the above rounds
