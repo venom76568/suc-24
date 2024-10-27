@@ -104,7 +104,7 @@ const TimeLine = () => (
                         href={pdf}
                         target="_blank"
                         rel="noopener noreferrer" // Added rel for security
-                        className="pdf"
+                        className="tnc"
                         style={{ color: "black" }}
                       >
                         tnc
