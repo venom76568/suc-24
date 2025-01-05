@@ -22,7 +22,7 @@ const About = () => (
       <div>
         <img
           id="img1"
-          src={logo}
+          src={logo1}
           alt="startup conclave logo"
           className="w-60 hover:scale-125 "
         />
@@ -60,7 +60,7 @@ const About = () => (
       <div>
         <img
           id="img2"
-          src={logo1}
+          src={logo}
           alt="E-Cell logo"
           className="w-60 hover:scale-125 "
         />

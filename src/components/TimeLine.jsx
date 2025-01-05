@@ -20,7 +20,7 @@ const TimeLine = () => (
             </p>
             <p className="text-lg md:text-lg text-gray-50 mb-4">
               Mark your Calenders as we present before you the Timeline of the
-              SUC-23 Event. Go through all the steps to know the exact process
+              SUC-25 Event. Go through all the steps to know the exact process
               of the Event.
             </p>
             {/* <a href="#"
@@ -38,7 +38,7 @@ const TimeLine = () => (
                 <div className="bg-opacity-0 mb-8 flex justify-between flex-row-reverse items-center w-full left-timeline">
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
-                    <p className="text-xl mb-3 text-yellow-400">15 Dec, 2023</p>
+                    <p className="text-xl mb-3 text-yellow-400">6 Jan, 2025</p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl"
                       id="same"
@@ -46,7 +46,7 @@ const TimeLine = () => (
                       Registration Starts
                     </h4>
                     <p className="text-lg md:text-lg leading-snug text-gray-50 text-opacity-100">
-                      Start your journey with Start-Up Conclave 2023 by
+                      Start your journey with Start-Up Conclave 2025 by
                       registering for the event by clicking the above Register
                       button.
                     </p>
@@ -55,7 +55,7 @@ const TimeLine = () => (
                 <div className="mb-8 flex justify-between items-center w-full right-timeline">
                   <div className="order-1 w-5/12"></div>
                   <div className="order-1  w-5/12 px-1 py-4 text-left">
-                    <p className="text-xl mb-3 text-yellow-400">10 Jan, 2024</p>
+                    <p className="text-xl mb-3 text-yellow-400">18 Jan, 2025</p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl"
                       id="same"
@@ -74,7 +74,7 @@ const TimeLine = () => (
                   <div className="order-1 w-5/12 px-1 py-4 text-right">
                     <p className="text-xl mb-3 text-yellow-400">
                       {" "}
-                      11 Jan to 25 Jan, 2024
+                      20 Jan to 28 Jan, 2025
                     </p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl"
@@ -94,7 +94,7 @@ const TimeLine = () => (
                   <div className="order-1 w-5/12"></div>
 
                   <div className="order-1  w-5/12 px-1 py-4">
-                    <p className="text-xl mb-3 text-yellow-400">10 Feb,2024</p>
+                    <p className="text-xl mb-3 text-yellow-400">8 Feb,2025</p>
                     <h4
                       className="mb-3 font-bold font-serif text-lg md:text-3xl text-left"
                       id="same"

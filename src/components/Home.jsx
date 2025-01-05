@@ -1,6 +1,7 @@
 import React from "react";
 import "./home.css";
 import logo from "../assets/suc_logo.png";
+import logo1 from "../assets/SUC logo_1_copy.png";
 import brochure from "../assets/StartUp Conclave Media Brochure.pdf";
 
 const Home = () => (
@@ -9,7 +10,7 @@ const Home = () => (
       <div className="">
         <img
           id="image_logo"
-          src={logo}
+          src={logo1}
           alt="logo"
           class="w-[75%] py-8 ml-[35px] md:ml-16"
         />
@@ -25,7 +26,7 @@ const Home = () => (
         </span>
         <br />
         <span className="text-2xl">
-          Registrations for SUC 2024 Starting soon !!!
+          Registrations for SUC 2025 Starting soon !!!
         </span>
       </p>
       <div className="">
