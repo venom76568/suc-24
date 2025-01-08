@@ -11,7 +11,7 @@ export default class NewCard extends Component {
         </div>
         <div className="my-10  flex grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center flex-wrap gap-10">
           <div className="p-5 text-center w-[250px] rounded-2xl  bg-gradient-to-b from-[#f600005d] to-[#ff0000]">
-            <a href="https://www.linkedin.com/in/aryan-jaiswal-/">
+            <a href="https://www.linkedin.com/in/anushkak0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <div className="">
                 <h3 className="text-white font-bold text-[24px]">Anushka</h3>
 
@@ -21,7 +21,7 @@ export default class NewCard extends Component {
           </div>
 
           <div className="p-5 w-[250px] text-center rounded-2xl bg-gradient-to-b from-[#f600005d] to-[#ff0000] ">
-            <a href="https://www.linkedin.com/in/varad-nilawar-9630a9202">
+            <a href="https://www.linkedin.com/in/dhroov-jindal-60201930a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
               <div className="">
                 <h3 className="text-white font-bold text-[24px]">Dhroov</h3>
 
