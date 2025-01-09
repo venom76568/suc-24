@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import logo from "../assets/suc_logo.png";
 import logo1 from "../assets/SUC logo_1_copy.png";
-import brochure from "../assets/StartUp Conclave Media Brochure.pdf";
+import brochure from "../assets/SuC Brochure 2025.pdf";
 
 const Home = () => (
   <div id="" className="grid grid-cols-1 md:grid-cols-2 py-12">
