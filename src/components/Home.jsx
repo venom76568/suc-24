@@ -31,7 +31,7 @@ const Home = () => (
       </p>
       <div className="">
         <a
-          href="https://unstop.com/o/D2Kecr0?lb=XXfTQEEf"
+          href="https://unstop.com/p/startup-conclave-2025-visvesvaraya-national-institute-of-technology-1353458"
           rel="noreferrer"
           target="_blank"
           className="mr-8"
