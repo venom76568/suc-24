@@ -1,7 +1,7 @@
 import React from "react";
 import "./Timeline.css";
 import image1 from "../assets/image1.png";
-import pdf from "../assets/tnc_25.pdf"; // Corrected line
+import pdf from "../assets/tnc24.pdf"; // Corrected line
 
 const TimeLine = () => (
   <div>
